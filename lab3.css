@@ -1,0 +1,189 @@
+/* Profile container uses flexbox to arrange items horizontally */
+.profile-container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px; 
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Profile picture placeholder */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+}
+
+.follow-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background-color: darkgreen;
+}
+
+
+/* Container uses Flexbox to arrange previews horizontally */
+.blog-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Blog previews are equally sized using flex: 1 */
+.blog-preview {
+    flex: 1; 
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.blog-preview h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blog-preview:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+
+/* Flex container for the layout */
+.content-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Main article section */
+.main-article {
+    flex-basis: 60%; 
+    flex-grow: 2; 
+    background-color: lightyellow;
+    padding: 15px;
+}
+
+.sidebar {
+    flex-shrink: 0; 
+    background-color: lightgreen;
+    padding: 15px;
+    width: 200px;
+}
+
+.ads {
+    flex-grow: 1; 
+    background-color: lightcoral;
+    padding: 15px;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+
+/* Container for the pricing plans */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 150px); 
+    gap: 10px; 
+    padding: 20px;
+}
+
+/* Each plan box */
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #000;
+    font-weight: bold;
+}
+
+.plan1 {
+    background-color: lightblue;
+}
+
+.plan2 {
+    background-color: lightgreen;
+}
+
+.plan3 {
+    background-color: lightcoral;
+}
+
+.plan4 {
+    background-color: lightyellow;
+}
+
+.plan h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* Portfolio grid container */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "header header header"
+        "project skills contact";
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Header spans all columns */
+.header {
+    grid-area: header;
+    grid-column: 1 / -1; 
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.project {
+    grid-area: project;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.skills {
+    grid-area: skills;
+    background-color: lightgreen;
+    padding: 15px;
+}
+
+.contact {
+    grid-area: contact;
+    background-color: lightcoral;
+    padding: 15px;
+}
+
+.skills-flex {
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 10px;
+}
+
+.badge {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}

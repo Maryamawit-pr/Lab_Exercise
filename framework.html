@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maryamawit's Portfolio Framework</title>
+    <link rel="stylesheet" href="framework.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section">
+      <div class="container text-center">
+        <h1 class="text-large">Maryamawit Mesfin</h1>
+        <h2 class="text-medium mb-2">CS Student at Hilcoe</h2>
+        <div class="py-1">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="text-medium text-center mb-2">About Me</h2>
+        <div class="row">
+          <div class="col">
+            <img
+              src="profile-placeholder.jpg"
+              alt="Maryamawit"
+              class="about-img"
+            />
+          </div>
+          <div class="col">
+            <p class="mb-1">
+              Hello! I'm Maryamawit Mesfin, a Computer Science student at HiLCoE
+              School of Computer Science and Technology.
+            </p>
+            <p class="mb-1">
+              I'm passionate about software development and problem solving. My
+              coursework has covered algorithms, data structures, web
+              development, and database systems.
+            </p>
+            <a href="#" class="btn btn-primary">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="text-medium text-center mb-2">My Projects</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <h3 class="mb-1">E-commerce Website</h3>
+              <p class="mb-1">
+                A full-stack e-commerce platform built with HTML, CSS,
+                JavaScript and Node.js
+              </p>
+              <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <h3 class="mb-1">Student Management System</h3>
+              <p class="mb-1">
+                Java application for managing student records and grades
+              </p>
+              <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="text-medium text-center mb-2">Get In Touch</h2>
+        <div class="row">
+          <div class="col">
+            <p class="mb-1">Email: maryamawit@example.com</p>
+            <p class="mb-1">Phone: +251 912 345 678</p>
+            <p>HiLCoE School of Computer Science and Technology</p>
+          </div>
+          <div class="col">
+            <form>
+              <div class="mb-1">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="card"
+                  style="width: 100%; padding: 0.8rem"
+                />
+              </div>
+              <div class="mb-1">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="card"
+                  style="width: 100%; padding: 0.8rem"
+                />
+              </div>
+              <div class="mb-1">
+                <textarea
+                  placeholder="Your Message"
+                  class="card"
+                  style="width: 100%; padding: 0.8rem; min-height: 120px"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

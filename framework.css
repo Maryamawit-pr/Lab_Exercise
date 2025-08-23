@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Typography */
+.text-large {
+  font-size: 2.5rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+}
+
+.text-small {
+  font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+/* Navigation */
+.nav {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #6c63ff;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #5a52d6;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 2px solid #6c63ff;
+  color: #6c63ff;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+/* About section specific */
+.about-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+/* Utility classes */
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
